@@ -146,14 +146,4 @@
   <!-- Rule -->
   <line x1="80" y1="340" x2="520" y2="340" stroke="#6b1414" stroke-width="0.6" opacity="0.65"/>
 
-  <!-- Sub -->
-  <text
-    x="80" y="370"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="13"
-    font-style="italic"
-    fill="#e7e5cb"
-    letter-spacing="6"
-    opacity="0.85">autunno 2026</text>
-
 </svg>
