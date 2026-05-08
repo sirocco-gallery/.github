@@ -125,7 +125,7 @@
   <!-- Wordmark glow layer (render beneath) -->
   <text
     x="80" y="318"
-    font-family="Georgia, 'Times New Roman', serif"
+    font-family="Georgia, 'Crimson', serif"
     font-size="108"
     font-weight="bold"
     fill="#9b1f1f"
