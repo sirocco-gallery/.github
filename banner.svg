@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040608"></stop>
+      <stop offset="50%" stop-color="#070b0c"></stop>
+      <stop offset="100%" stop-color="#050608"></stop>
+    </linearGradient>
+
+    
+    <radialGradient id="teal" cx="22%" cy="28%" r="62%">
+      <stop offset="0%" stop-color="#143033" stop-opacity="0.95"></stop>
+      <stop offset="45%" stop-color="#0c1f22" stop-opacity="0.55"></stop>
+      <stop offset="100%" stop-color="#040608" stop-opacity="0"></stop>
+    </radialGradient>
+
+    
+    <radialGradient id="ember" cx="78%" cy="92%" r="58%">
+      <stop offset="0%" stop-color="#7a1d10" stop-opacity="0.78"></stop>
+      <stop offset="35%" stop-color="#3a0c08" stop-opacity="0.42"></stop>
+      <stop offset="100%" stop-color="#040608" stop-opacity="0"></stop>
+    </radialGradient>
+
+    
+    <radialGradient id="ember2" cx="62%" cy="68%" r="34%">
+      <stop offset="0%" stop-color="#9c2a14" stop-opacity="0.55"></stop>
+      <stop offset="55%" stop-color="#3a0c08" stop-opacity="0.18"></stop>
+      <stop offset="100%" stop-color="#040608" stop-opacity="0"></stop>
+    </radialGradient>
+
+    
+    <linearGradient id="cream" x1="0%" y1="60%" x2="100%" y2="55%">
+      <stop offset="0%" stop-color="#e8dfce" stop-opacity="0"></stop>
+      <stop offset="48%" stop-color="#e8dfce" stop-opacity="0.22"></stop>
+      <stop offset="62%" stop-color="#e8dfce" stop-opacity="0.32"></stop>
+      <stop offset="100%" stop-color="#e8dfce" stop-opacity="0"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="creamBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="58%" stop-color="#fff" stop-opacity="0"></stop>
+      <stop offset="62%" stop-color="#fff" stop-opacity="1"></stop>
+      <stop offset="68%" stop-color="#fff" stop-opacity="1"></stop>
+      <stop offset="72%" stop-color="#fff" stop-opacity="0"></stop>
+    </linearGradient>
+    <mask id="creamMask">
+      <rect width="1500" height="500" fill="url(#creamBand)"></rect>
+    </mask>
+
+    
+    <radialGradient id="vignette" cx="50%" cy="55%" r="78%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.7"></stop>
+    </radialGradient>
+
+    
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11"></feTurbulence>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.05 0"></feColorMatrix>
+    </filter>
+  </defs>
+
+  
+  <rect width="1500" height="500" fill="url(#base)"></rect>
+  <rect width="1500" height="500" fill="url(#teal)" style="mix-blend-mode:screen"></rect>
+  <rect width="1500" height="500" fill="url(#ember)" style="mix-blend-mode:screen"></rect>
+  <rect width="1500" height="500" fill="url(#ember2)" style="mix-blend-mode:screen"></rect>
+  <g mask="url(#creamMask)">
+    <rect width="1500" height="500" fill="url(#cream)" style="mix-blend-mode:screen"></rect>
+  </g>
+
+  
+  <line x1="80" y1="312" x2="640" y2="312" stroke="#a8bdb8" stroke-opacity="0.18" stroke-width="0.6"></line>
+
+  <rect width="1500" height="500" fill="url(#vignette)"></rect>
+  <rect width="1500" height="500" filter="url(#grain)" style="mix-blend-mode:overlay" opacity="0.45"></rect>
+
+  
+  <g font-family="&#39;Cormorant Garamond&#39;, &#39;EB Garamond&#39;, Georgia, serif" font-weight="400" fill="#a8bdb8">
+    <text x="1440" y="372" text-anchor="end" font-size="92" letter-spacing="-0.012em" style="text-shadow: 0 1px 22px rgba(0,0,0,0.55)">
+      sirocco<tspan fill="#8fa6a2" font-style="italic">.</tspan>gallery
+    </text>
+    
+    <line x1="1180" y1="328" x2="1440" y2="328" stroke="#a8bdb8" stroke-opacity="0.32" stroke-width="0.5"></line>
+  </g>
+</svg>
