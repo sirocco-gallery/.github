@@ -140,7 +140,7 @@
     font-size="108"
     font-weight="bold"
     letter-spacing="-3">
-    <tspan fill="#9b1f1f">sirocco</tspan><tspan fill="#6b1414">.gallery</tspan>
+    <tspan fill="#ffffff">sirocco</tspan><tspan fill="#e7e5cb">.gallery</tspan>
   </text>
 
   <!-- Rule -->
@@ -152,7 +152,7 @@
     font-family="Georgia, 'Times New Roman', serif"
     font-size="13"
     font-style="italic"
-    fill="#6b1414"
+    fill="#e7e5cb"
     letter-spacing="6"
     opacity="0.85">autunno 2026</text>
 
