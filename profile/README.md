@@ -59,30 +59,13 @@ An evolving reference implementation — honest snapshot:
   a standard MCP client).
 - Bring-your-own (your own tokens + a per-purchase connector) and its commerce
   path — live, with verification still in progress.
-- Not production-hardened. Treat it as a reference implementation, not a finished
+- Not production-hardened. Treat as a reference implementation, not a finished
   product.
-
-## Develop
-
-```bash
-npm install
-npm run dev      # http://localhost:4321
-npm run build
-```
-
-## Layout
-
-```
-src/pages      routes, incl. /api/* endpoints (the WebMCP/MCP surfaces live here)
-src/lib        check · normalize · the run engine · the steward rubric · the MCP server
-src/data       the instruments and their token sets
-docs/          working notes
-```
 
 ## Notes
 
 WebMCP is an early, evolving web standard; the in-browser surface needs a browser
-with the WebMCP preview enabled. Everything else runs anywhere.
+with the WebMCP preview enabled. Used: Google Canary and Model Context Tool Inspector extension -> open side panel. Everything else runs anywhere.
 
 ## Tech
 
