@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./banner.svg" alt="sirocco.gallery" width="100%"/>
+<img src="./sirocco_banner.svg" alt="sirocco.gallery" width="100%"/>
 <br/><br/>
 
  
