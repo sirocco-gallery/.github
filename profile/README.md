@@ -31,6 +31,9 @@ own tokens to point the same steward at your system.
 - **WebMCP (in the browser).** The page registers tools on
   `document.modelContext`; an in-browser agent discovers and calls them. Verified
   in Chrome's WebMCP preview with a real model driving the tools end to end.
+
+<img width="1326" height="608" alt="Screenshot 2026-06-19 162254" src="https://github.com/user-attachments/assets/449876af-7167-4884-bce5-6d3f1b38a392" />
+
 - **MCP connector (in your IDE).** A remote MCP server (`/api/mcp`) you add to a
   coding agent (Claude Code, Cursor) so the steward runs inside your dev loop.
 
