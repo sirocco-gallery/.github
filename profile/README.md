@@ -1,5 +1,6 @@
 <div align="center">
 <img src="./sirocco_banner.svg" alt="sirocco.gallery" width="100%"/>
+</div>
 <br/><br/>
 
  
