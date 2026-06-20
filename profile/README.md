@@ -1,9 +1,8 @@
 <div align="center">
 <img src="./banner.svg" alt="sirocco.gallery" width="100%"/>
 <br/><br/>
- 
-# sirocco
 
+ 
 **A live WebMCP design surface.** Design-intent enforcement that AI agents can
 call — in the browser and in your coding agent. An agent drafts UI; the *steward*
 names where it drifts from a design system's tokens; it corrects until the build
