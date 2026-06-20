@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" font-family="sans-serif">
+  <defs>
+    
+    <radialGradient id="ember" cx="16%" cy="6%" r="95%">
+      <stop offset="0%" stop-color="#5c241e" stop-opacity="0.5"></stop>
+      <stop offset="50%" stop-color="#1c1310" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1280" height="320" fill="#15100d"></rect>
+  <rect width="1280" height="320" fill="url(#ember)"></rect>
+
+  
+  <rect x="30" y="30" width="1220" height="260" fill="none" stroke="#e9dfca" stroke-opacity="0.12" stroke-width="1"></rect>
+  
+  <rect x="62" y="29" width="26" height="2" fill="#c69a5b"></rect>
+
+  
+  <text class="mono" x="62" y="88" font-size="13" letter-spacing="3.4" fill="#e9dfca" fill-opacity="0.5">SESSION — OPEN</text>
+  <text class="mono" x="1218" y="88" text-anchor="end" font-size="13" letter-spacing="3.4" fill="#e9dfca" fill-opacity="0.5">SALON · III</text>
+
+  
+  <text class="serif" x="60" y="190" font-size="64" font-weight="500" fill="#e9dfca">sirocco<tspan fill="#c69a5b">.</tspan>gallery</text>
+
+  
+  <text class="mono" x="62" y="228" font-size="13" letter-spacing="3.1" fill="#e9dfca" fill-opacity="0.46">A LIVE <tspan fill="#c69a5b">WEBMCP</tspan> DESIGN SURFACE BUILT FOR AUTONOMOUS AGENTS</text>
+
+  
+  <text class="mono" x="62" y="266" font-size="13" letter-spacing="3.4" fill="#e9dfca" fill-opacity="0.4">EST · MMXXVI</text>
+  <text class="mono" x="1218" y="266" text-anchor="end" font-size="13" letter-spacing="3.4" fill="#e9dfca" fill-opacity="0.4">MODE · DISPLAY</text>
+</svg>
