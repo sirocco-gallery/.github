@@ -6,9 +6,7 @@
  # sirocco
 
 **A live WebMCP design surface** — the *provider* half of a WebMCP reference
-implementation. Design-intent enforcement that AI agents can call, in the browser
-and in your coding agent: an agent drafts UI; the **steward** names where it drifts
-from a design system's tokens; it corrects until the build honors them.
+implementation. Design-intent enforcement that AI agents can call, in the browser: an agent drafts UI; the **steward** names where it drifts from a design system's tokens; it corrects until the build honors them.
 
 → [sirocco.gallery](https://sirocco.gallery)
 
