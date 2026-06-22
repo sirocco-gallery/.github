@@ -3,11 +3,12 @@
 </div>
 <br/><br/>
 
- 
-**A live WebMCP design surface.** Design-intent enforcement that AI agents can
-call — in the browser and in your coding agent. An agent drafts UI; the *steward*
-names where it drifts from a design system's tokens; it corrects until the build
-honors them.
+ # sirocco
+
+**A live WebMCP design surface** — the *provider* half of a WebMCP reference
+implementation. Design-intent enforcement that AI agents can call, in the browser
+and in your coding agent: an agent drafts UI; the **steward** names where it drifts
+from a design system's tokens; it corrects until the build honors them.
 
 → [sirocco.gallery](https://sirocco.gallery)
 
@@ -23,22 +24,29 @@ removes the discipline problem and offers it to agents as a tool:
   temperature, intent. The deterministic check is the floor; the rubric is the
   layer above it, which the agent's own model reasons through.
 
-It's demonstrated on six **house instruments** (curated token sets). Bring your
-own tokens to point the same steward at your system.
+It's demonstrated on six **house instruments** (curated token sets).
+
+## The complete loop — both halves
+
+A capability isn't real until something on the other side uses it. sirocco is
+shipped as a matched pair:
+
+- **Provider (this repo)** — sirocco.gallery registers the steward's checks as
+  agent-callable tools on `document.modelContext`, the reference implementation.
+- **Consumer (companion)** — [**WebMCP Agent**](https://github.com/sirocco-gallery/webmcp-agent),
+  a general-purpose Chrome side-panel agent that discovers and drives any page's
+  WebMCP tools through a Gemini chat. Beta; load-unpacked while it's in Chrome Web
+  Store review.
 
 ## Two agent surfaces
 
 - **WebMCP (in the browser).** The page registers tools on
   `document.modelContext`; an in-browser agent discovers and calls them. Verified
-  in Chrome's WebMCP preview with a real model driving the tools end to end.
-
-<img width="1326" height="608" alt="Screenshot 2026-06-19 162254" src="https://github.com/user-attachments/assets/449876af-7167-4884-bce5-6d3f1b38a392" />
-
+  in Chrome's WebMCP preview with a real model driving the tools end to end, and by
+  a second, independent consumer (the Model Context Tool Inspector).
 - **MCP connector (in your IDE).** A remote MCP server (`/api/mcp`) you add to a
-  coding agent (Claude Code, Cursor) so the steward runs inside your dev loop.
-
-Both are deterministic + the rubric — no model calls or external services in the
-check itself.
+  coding agent (Claude Code, Cursor) so the steward runs inside your dev loop — the
+  house instruments, deterministic + the rubric, no model calls in the check.
 
 ## Surfaces
 
@@ -46,26 +54,45 @@ check itself.
 |---|---|
 | `/session` | **the floor** — watch an agent run the loop across the instruments (scripted, and a live model on demand) |
 | `/steward` | what the steward is |
+| `/demo` | the loop on film — the tools driven by two independent consumers |
 | `/mint` | normalize any design system into a canonical token set |
 | `/lab` | the registered WebMCP tools, run by hand |
-| `/instrument` | bring-your-own: your tokens, your connector |
 
 ## Status
 
 An evolving reference implementation — honest snapshot:
 
-- Deterministic drift check; WebMCP tool surface; the floor (scripted + a live
-  agent run); the steward rubric; the MCP connector's **open tier** (verified with
-  a standard MCP client).
-- Bring-your-own (your own tokens + a per-purchase connector) and its commerce
-  path — live, with verification still in progress.
-- Not production-hardened. Treat as a reference implementation, not a finished
+- ✅ Deterministic drift check; the WebMCP tool surface (verified across two
+  consumers); the floor (scripted + a live agent run); the steward rubric; the MCP
+  connector's open tier (verified with a standard MCP client); the companion
+  consumer extension (verified across two providers).
+- ✅ **v1 leads with the capability, openly.** No account, no paid tier surfaced —
+  the whole loop is free and walkable.
+- Not production-hardened. Treat it as a reference implementation, not a finished
   product.
+
+## Develop
+
+```bash
+npm install
+npm run dev      # http://localhost:4321
+npm run build
+```
+
+## Layout
+
+```
+src/pages      routes, incl. /api/* endpoints (the WebMCP/MCP surfaces live here)
+src/lib        check · normalize · the run engine · the steward rubric · the MCP server
+src/data       the instruments and their token sets
+src/components  Masthead · BothHalves · the WebMCP registration
+```
 
 ## Notes
 
 WebMCP is an early, evolving web standard; the in-browser surface needs a browser
-with the WebMCP preview enabled. Used: Google Canary and Model Context Tool Inspector extension -> open side panel. Everything else runs anywhere.
+with the WebMCP preview enabled (Chrome 146+ behind a flag). Everything else runs
+anywhere.
 
 ## Tech
 
