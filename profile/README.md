@@ -71,29 +71,10 @@ An evolving reference implementation — honest snapshot:
 - Not production-hardened. Treat it as a reference implementation, not a finished
   product.
 
-## Develop
-
-```bash
-npm install
-npm run dev      # http://localhost:4321
-npm run build
-```
-
-## Layout
-
-```
-src/pages      routes, incl. /api/* endpoints (the WebMCP/MCP surfaces live here)
-src/lib        check · normalize · the run engine · the steward rubric · the MCP server
-src/data       the instruments and their token sets
-src/components  Masthead · BothHalves · the WebMCP registration
-```
-
 ## Notes
 
 WebMCP is an early, evolving web standard; the in-browser surface needs a browser
 with the WebMCP preview enabled (Chrome 146+ behind a flag). Everything else runs
 anywhere.
-
-## Tech
 
 [Astro](https://astro.build) · Vercel · [`@modelcontextprotocol/sdk`](https://modelcontextprotocol.io) · the WebMCP draft (`document.modelContext`)
