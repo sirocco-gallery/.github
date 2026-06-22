@@ -38,15 +38,12 @@ shipped as a matched pair:
   WebMCP tools through a Gemini chat. Beta; load-unpacked while it's in Chrome Web
   Store review.
 
-## Two agent surfaces
+## Agent surface
 
 - **WebMCP (in the browser).** The page registers tools on
   `document.modelContext`; an in-browser agent discovers and calls them. Verified
   in Chrome's WebMCP preview with a real model driving the tools end to end, and by
   a second, independent consumer (the Model Context Tool Inspector).
-- **MCP connector (in your IDE).** A remote MCP server (`/api/mcp`) you add to a
-  coding agent (Claude Code, Cursor) so the steward runs inside your dev loop — the
-  house instruments, deterministic + the rubric, no model calls in the check.
 
 ## Surfaces
 
