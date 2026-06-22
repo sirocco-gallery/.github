@@ -12,8 +12,7 @@ from a design system's tokens; it corrects until the build honors them.
 
 → [sirocco.gallery](https://sirocco.gallery)
 
-## The idea
-
+>
 A design system is only as good as the discipline that keeps to it. The steward
 removes the discipline problem and offers it to agents as a tool:
 
@@ -25,6 +24,7 @@ removes the discipline problem and offers it to agents as a tool:
   layer above it, which the agent's own model reasons through.
 
 It's demonstrated on six **house instruments** (curated token sets).
+>
 
 ## The complete loop — both halves
 
