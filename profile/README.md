@@ -10,7 +10,7 @@ implementation. Design-intent enforcement that AI agents can call, in the browse
 
 → [sirocco.gallery](https://sirocco.gallery)
 
-See live demo here: [sirocco provider and consumer loop](https://youtu.be/BpHmZew93Ec)
+See live demo here: [sirocco provider and consumer loop](https://youtu.be/0D4jC-KZzNs)
 
 >
 A design system is only as good as the discipline that keeps to it. The steward
