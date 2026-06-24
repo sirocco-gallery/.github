@@ -10,6 +10,8 @@ implementation. Design-intent enforcement that AI agents can call, in the browse
 
 → [sirocco.gallery](https://sirocco.gallery)
 
+See live demo here: [sirocco provider and consumer](https://youtu.be/BpHmZew93Ec)
+
 >
 A design system is only as good as the discipline that keeps to it. The steward
 removes the discipline problem and offers it to agents as a tool:
