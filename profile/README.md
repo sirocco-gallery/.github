@@ -10,7 +10,7 @@ implementation. Design-intent enforcement that AI agents can call, in the browse
 
 → [sirocco.gallery](https://sirocco.gallery)
 
-See live demo here: [sirocco WebMCP provider and consumer loop](https://youtu.be/0D4jC-KZzNs)
+See live demo here: [sirocco WebMCP provider and refraktor consumer loop](https://youtu.be/4yLuqEr58PA)
 
 >
 A design system is only as good as the discipline that keeps to it. The steward
@@ -33,7 +33,7 @@ shipped as a matched pair:
 
 - **Provider (this repo)** — sirocco.gallery registers the steward's checks as
   agent-callable tools on `document.modelContext`, the reference implementation.
-- **Consumer (companion)** — [**WebMCP Agent**](https://github.com/sirocco-gallery/webmcp-agent),
+- **Consumer (refraktor)** — [**WebMCP Agent**](https://github.com/sirocco-gallery/refraktor),
   a general-purpose Chrome side-panel agent that discovers and drives any page's
   WebMCP tools through a Gemini chat. Beta; load-unpacked while it's in Chrome Web
   Store review.
