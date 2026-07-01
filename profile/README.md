@@ -35,7 +35,8 @@ shipped as a matched pair:
   agent-callable tools on `document.modelContext`, the reference implementation.
 - **Consumer (Refraktor)** — [**Refraktor repo**](https://github.com/sirocco-gallery/refraktor)
   a general-purpose Chrome side-panel agent that discovers and drives any page's
-  WebMCP tools through a Gemini chat. [Refraktor](https://chromewebstore.google.com/detail/refraktor/nkafbaaanaamfjdljndmieichdgkhgii) is available via the Chrome Web store 
+  WebMCP tools through a Gemini chat.
+- **[Refraktor](https://chromewebstore.google.com/detail/refraktor/nkafbaaanaamfjdljndmieichdgkhgii) is available via the Chrome Web store 
 
 ## Agent surface
 
