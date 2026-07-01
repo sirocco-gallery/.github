@@ -33,10 +33,9 @@ shipped as a matched pair:
 
 - **Provider (this repo)** — sirocco.gallery registers the steward's checks as
   agent-callable tools on `document.modelContext`, the reference implementation.
-- **Consumer (Refraktor)** — [**Refraktor repo**](https://github.com/sirocco-gallery/refraktor). [Refraktor](https://chromewebstore.google.com/detail/refraktor/nkafbaaanaamfjdljndmieichdgkhgii) is available via the Chrome Web store 
+- **Consumer (Refraktor)** — [**Refraktor repo**](https://github.com/sirocco-gallery/refraktor)
   a general-purpose Chrome side-panel agent that discovers and drives any page's
-  WebMCP tools through a Gemini chat. Beta; load-unpacked while it's in Chrome Web
-  Store review.
+  WebMCP tools through a Gemini chat. [Refraktor](https://chromewebstore.google.com/detail/refraktor/nkafbaaanaamfjdljndmieichdgkhgii) is available via the Chrome Web store 
 
 ## Agent surface
 
