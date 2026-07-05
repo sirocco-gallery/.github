@@ -74,4 +74,4 @@ WebMCP is an early, evolving web standard; the in-browser surface needs a browse
 with the WebMCP preview enabled (Chrome 146+ behind a flag). Everything else runs
 anywhere.
 
-[Astro](https://astro.build) · Vercel · [`@modelcontextprotocol/sdk`](https://modelcontextprotocol.io) · the WebMCP draft (`document.modelContext`)
+[Astro](https://astro.build) · Vercel · [`@modelcontextprotocol/sdk`](https://modelcontextprotocol.io) · the WebMCP draft (`document.modelContext`) · [A Ziola Project](https://www.ziola.dev/index.html)
