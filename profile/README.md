@@ -81,8 +81,7 @@ An evolving reference implementation — honest snapshot:
   nature of incoming tool calls during the Google 
   Chrome WebMCP origin trial.
 
-  ## The Client Consumer (Chrome web store 
-  extension: Refraktor):
+  ## The Client Consumer (Chrome web store):
   A general browser consumer extension built with 
   design conformance awareness. It runs locally in 
   the browser to discover and interact directly 
@@ -93,8 +92,10 @@ An evolving reference implementation — honest snapshot:
 
 ## Notes
 
-WebMCP is an early, evolving web standard; the in-browser surface needs a browser
-with the WebMCP preview enabled (Chrome 146+ behind a flag). Everything else runs
+WebMCP is an early, evolving web standard; the in-
+browser surface needs a browser
+with the WebMCP preview enabled (Chrome 146+ behind 
+a flag). Everything else runs
 anywhere.
 
 [Astro](https://astro.build) · Vercel · [`@modelcontextprotocol/sdk`](https://modelcontextprotocol.io) · the WebMCP draft (`document.modelContext`) · [A Ziola Project](https://www.ziola.dev/index.html)
