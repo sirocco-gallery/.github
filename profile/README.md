@@ -36,7 +36,7 @@ shipped as a matched pair:
 - **Consumer (Refraktor)** — [**Refraktor repo**](https://github.com/sirocco-gallery/refraktor)
   a general-purpose Chrome side-panel agent that discovers and drives any page's
   WebMCP tools through a Gemini chat.
-- [Refraktor](https://chromewebstore.google.com/detail/refraktor/nkafbaaanaamfjdljndmieichdgkhgii) is available via the Chrome Web store 
+- [Refraktor](https://chromewebstore.google.com/detail/refraktor/nkafbaaanaamfjdljndmieichdgkhgii) and [Refraktor Pro](https://chromewebstore.google.com/detail/refraktor-pro/pmlliajcifdaaeaokofeekncogeapclh) are available via the Chrome Web store 
 
 ## Agent surface
 
